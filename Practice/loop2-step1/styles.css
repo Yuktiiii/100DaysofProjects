@@ -1,0 +1,98 @@
+/* RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --pink: #DE8A89;
+    --gray: #ECB9B8;
+    --gray-hover: #FBCBCB;
+    --white: #FFFFFF;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: var(--pink);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+.header span {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings div:first-of-type {
+    background-color: var(--gray);
+    width: 70px;
+    height: 70px;
+}
+
+.settings div:nth-of-type(2) {
+    background-color: #3E3C3D;
+}
+
+.settings div:nth-of-type(3) {
+    background-color: #353334;
+}
+
+.settings div:nth-of-type(4) {
+    background-color: #201E1F;
+}
+
+.settings div:last-of-type {
+    background-color: var(--gray);
+    width: 70px;
+    height: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 250px;
+    height: 250px;
+    padding: 40px;
+}
+
+.card span:first-of-type {
+    color: var(--pink);
+    font-weight: 300;
+}
+
+.card span:nth-of-type(2) {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: auto;
+    padding: 12px;
+    border-radius: 3px;
+    font-weight: bold;
+}
